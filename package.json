@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "reset": "node config/reset.js"
   },
   "keywords": [
     "listicle",
@@ -17,7 +18,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "pg": "^8.21.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
